@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --color-pine: #123b36;
+  --color-ink: #16232b;
+  --color-mist: #f2f5f6;
+  --color-saffron: #e3a72f;
+  --color-brick: #b0362c;
+}
+
+body { background: var(--color-mist); color: var(--color-ink); font-family: var(--font-sans); }
